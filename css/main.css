@@ -33,18 +33,17 @@ body {
 
 .robot-brain {
   position: absolute;
-  top: 40px;
+  top: 70px;
   left: 0;
   right: 0;
   width: 46px;
   margin: 0 auto;
-  display: none;
 }
 
 .robot-head-right,
 .robot-head-left {
   position: absolute;
-  top: 10px;
+  top: 18px;
   width: 125px;
 }
 
@@ -57,15 +56,17 @@ body {
 }
 
 .robot:hover .robot-head-left {
+  top: 5px;
   left: 0;
   right: auto;
 }
 
 .robot:hover .robot-head-right {
+  top: 5px;
   right: 0;
   left: auto;
 }
 
 .robot:hover .robot-brain {
-  display: inline;
+  top: 40px;
 }
